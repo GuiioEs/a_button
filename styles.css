@@ -18,7 +18,9 @@ body {
 }
 
 .pride-flag {
+  position: relative;
   width: 286px;
+  overflow: hidden;
 }
 
 .pride-flag::before {
