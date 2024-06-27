@@ -40,9 +40,9 @@ body {
   top: 0;
   left: 0;
   transform-origin: left bottom; 
-  trasnform: skew(30deg) translateX(-70px);
-  transition: all 0.3s
-    opacity: 0.8,
+  transform: skew(30deg) translateX(-70px);
+  transition: all 0.3s;
+  opacity: 0.8;
     }
 
 .slay:hover::before {
