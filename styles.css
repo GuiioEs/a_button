@@ -26,11 +26,11 @@ body {
 .pride-flag::before {
   content: '';
   position: absolute;
-  width: 286px;
+  width: 70px;
   height: 100%;
   background-color: white;
   top: 0;
-  left: 0;
+  left: -70px;
   transform-origin: left bottom; 
   transform: skew(30deg) translateX(-70px);
   transition: all 0.3s;
