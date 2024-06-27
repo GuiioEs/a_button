@@ -17,6 +17,10 @@ body {
   flex-direction: column;
 }
 
+.pride-flag {
+  width: 286px;
+}
+
 .button {
   margin-bottom: 10px;
   font-size: 40px;
@@ -59,7 +63,5 @@ body {
   color: black;
 }
 
-.pride-flag {
-  width: 286px;
-}
+
 
