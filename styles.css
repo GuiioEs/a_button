@@ -21,6 +21,24 @@ body {
   width: 286px;
 }
 
+.pride-flag::before {
+  content: '';
+  position: absolute;
+  width: 286px;
+  height: 100%;
+  background-color: white;
+  top: 0;
+  left: 0;
+  transform-origin: left bottom; 
+  transform: skew(30deg) translateX(-70px);
+  transition: all 0.3s;
+  opacity: 0.8;
+    }
+
+.pride-flag:hover::before {
+  transform: skew(30deg) translateX(320px);
+}
+
 .button {
   margin-bottom: 10px;
   font-size: 40px;
