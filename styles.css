@@ -31,7 +31,7 @@ body {
   outline: none;
 }
 
-.slay:before {
+.slay::before {
   content: '';
   position: absolute;
   width: 70px;
@@ -45,7 +45,7 @@ body {
     opacity: 0.8,
     }
 
-.slay:hover:before {
+.slay:hover::before {
   transform: skew(30deg) translateX(320px);
 }
 
