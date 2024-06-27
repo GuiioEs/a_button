@@ -32,13 +32,13 @@ body {
   top: 0;
   left: -70px;
   transform-origin: left bottom; 
-  transform: skew(30deg) translateX(-70px);
+  transform: skew(30deg);
   transition: all 0.3s;
   opacity: 0.8;
     }
 
 .pride-flag:hover::before {
-  transform: skew(30deg) translateX(320px);
+  transform: skew(30deg) translateX(356px);
 }
 
 .button {
